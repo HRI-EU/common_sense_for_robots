@@ -1,0 +1,3120 @@
+[
+    {
+        "action": "store",
+        "object": "pot",
+        "tools": [
+            "kitchen counter",
+            "dining table",
+            "bookshelf"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "sanitized",
+            "unused"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "sanitized",
+            "unused",
+            "stored",
+            "stacked",
+            "organized"
+        ],
+        "spatial_relations": [
+            "pot on kitchen counter",
+            "pot on dining table",
+            "pot in bookshelf"
+        ]
+    },
+    {
+        "action": "drink",
+        "object": "juice",
+        "tools": [
+            "water glass",
+            "mug",
+            "wine glass",
+            "bottle",
+            "flower pot"
+        ],
+        "object_states_before": [
+            "fresh",
+            "chilled",
+            "cold",
+            "clean",
+            "pure",
+            "natural"
+        ],
+        "object_states_after": [
+            "consumed"
+        ],
+        "spatial_relations": [
+            "juice outside water glass",
+            "juice outside mug",
+            "juice outside wine glass",
+            "juice outside bottle",
+            "juice outside flower pot"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "pan",
+        "tools": [
+            "kitchen counter",
+            "dining table",
+            "bookshelf"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "dust-free",
+            "sanitized",
+            "unused"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "dust-free",
+            "sanitized",
+            "unused",
+            "stored",
+            "stacked",
+            "organized",
+            "sorted"
+        ],
+        "spatial_relations": [
+            "pan on kitchen counter",
+            "pan on dining table",
+            "pan in bookshelf"
+        ]
+    },
+    {
+        "action": "cut",
+        "object": "lime",
+        "tools": [
+            "knife",
+            "fork",
+            "key"
+        ],
+        "object_states_before": [
+            "green",
+            "fresh",
+            "uncut",
+            "whole",
+            "joined"
+        ],
+        "object_states_after": [
+            "green",
+            "fresh",
+            "cut",
+            "separated",
+            "sliced",
+            "halved",
+            "segmented",
+            "chopped",
+            "dissected"
+        ],
+        "spatial_relations": [
+            "lime near knife",
+            "lime near fork",
+            "lime near key"
+        ]
+    },
+    {
+        "action": "fry",
+        "object": "fish",
+        "tools": [
+            "frying pan",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "raw",
+            "cold",
+            "soft",
+            "fresh",
+            "moist",
+            "slimy",
+            "uncooked",
+            "watery",
+            "wet",
+            "slippery",
+            "cleaned",
+            "prepared"
+        ],
+        "object_states_after": [
+            "cooked",
+            "hot",
+            "crispy",
+            "browned",
+            "fried"
+        ],
+        "spatial_relations": [
+            "fish in frying pan",
+            "fish in cooking pot"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "juice",
+        "tools": [
+            "water glass",
+            "mug",
+            "wine glass",
+            "bottle"
+        ],
+        "object_states_before": [
+            "fresh",
+            "chilled",
+            "cold",
+            "clean",
+            "pure",
+            "natural"
+        ],
+        "object_states_after": [
+            "fresh",
+            "chilled",
+            "cold",
+            "clean",
+            "pure",
+            "natural",
+            "offered",
+            "served",
+            "given"
+        ],
+        "spatial_relations": [
+            "juice in water glass",
+            "juice in mug",
+            "juice in wine glass",
+            "juice in bottle"
+        ]
+    },
+    {
+        "action": "cook",
+        "object": "fish",
+        "tools": [
+            "frying pan",
+            "cooking pot",
+            "microwave"
+        ],
+        "object_states_before": [
+            "raw",
+            "cold",
+            "soft",
+            "fresh",
+            "moist",
+            "slimy",
+            "uncooked",
+            "watery",
+            "wet",
+            "slippery",
+            "cleaned"
+        ],
+        "object_states_after": [
+            "cooked",
+            "hot",
+            "done",
+            "succulent"
+        ],
+        "spatial_relations": [
+            "fish in frying pan",
+            "fish in cooking pot",
+            "fish in microwave"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "wine glass",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "empty",
+            "clear",
+            "polished",
+            "dust-free",
+            "unused",
+            "upright",
+            "sanitized"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "dust-free",
+            "sanitized",
+            "unused",
+            "stored",
+            "sorted",
+            "upright",
+            "arranged",
+            "organized"
+        ],
+        "spatial_relations": [
+            "wine glass on kitchen counter",
+            "wine glass on dining table",
+            "wine glass in bookshelf"
+        ]
+    },
+    {
+        "action": "watch",
+        "object": "show",
+        "tools": [
+            "tv",
+            "remote control",
+            "tv stand",
+            "sofa",
+            "chair"
+        ],
+        "object_states_before": [
+            "off"
+        ],
+        "object_states_after": [
+            "off",
+            "watched",
+            "seen",
+            "viewed"
+        ],
+        "spatial_relations": []
+    },
+    {
+        "action": "serve",
+        "object": "toast",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "frying pan"
+        ],
+        "object_states_before": [
+            "dry",
+            "crispy",
+            "warm",
+            "golden",
+            "fresh",
+            "toasted",
+            "browned",
+            "prepared",
+            "plated"
+        ],
+        "object_states_after": [
+            "dry",
+            "crispy",
+            "warm",
+            "golden",
+            "fresh",
+            "toasted",
+            "browned",
+            "crunchy",
+            "offered",
+            "served",
+            "given"
+        ],
+        "spatial_relations": [
+            "toast on plate",
+            "toast in dish bowl",
+            "toast in frying pan"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "bun",
+        "tools": [
+            "plate",
+            "dish bowl"
+        ],
+        "object_states_before": [
+            "dry",
+            "crispy",
+            "warm",
+            "fresh",
+            "prepared",
+            "plated"
+        ],
+        "object_states_after": [
+            "dry",
+            "crispy",
+            "warm",
+            "fresh",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated"
+        ],
+        "spatial_relations": [
+            "bun on plate",
+            "bun in dish bowl"
+        ]
+    },
+    {
+        "action": "wash",
+        "object": "dish",
+        "tools": [
+            "faucet",
+            "kitchen counter",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "dirty",
+            "greasy",
+            "oily",
+            "stained",
+            "soiled",
+            "grimy",
+            "smelly"
+        ],
+        "object_states_after": [
+            "clean",
+            "sparkling",
+            "sanitized",
+            "rinsed",
+            "shiny",
+            "scrubbed",
+            "hygienic",
+            "immaculate",
+            "purified",
+            "unused",
+            "gleaming",
+            "washed",
+            "cleaned"
+        ],
+        "spatial_relations": [
+            "dish on kitchen counter"
+        ]
+    },
+    {
+        "action": "cut",
+        "object": "plum",
+        "tools": [
+            "knife",
+            "fork",
+            "key"
+        ],
+        "object_states_before": [
+            "purple",
+            "fresh",
+            "uncut",
+            "whole",
+            "joined"
+        ],
+        "object_states_after": [
+            "purple",
+            "fresh",
+            "cut",
+            "separated",
+            "sliced",
+            "halved",
+            "segmented",
+            "chopped",
+            "dissected",
+            "partitioned"
+        ],
+        "spatial_relations": [
+            "plum near knife",
+            "plum near fork",
+            "plum near key"
+        ]
+    },
+    {
+        "action": "cut",
+        "object": "chicken",
+        "tools": [
+            "knife",
+            "fork"
+        ],
+        "object_states_before": [
+            "fresh",
+            "uncut",
+            "whole",
+            "joined"
+        ],
+        "object_states_after": [
+            "fresh",
+            "cut",
+            "separated",
+            "sliced",
+            "halved",
+            "segmented",
+            "chopped",
+            "dissected",
+            "partitioned"
+        ],
+        "spatial_relations": [
+            "chicken near knife",
+            "chicken near fork"
+        ]
+    },
+    {
+        "action": "make",
+        "object": "soup",
+        "tools": [
+            "cooking pot",
+            "microwave",
+            "dish bowl",
+            "frying pan"
+        ],
+        "object_states_before": [
+            "raw",
+            "uncooked",
+            "cold"
+        ],
+        "object_states_after": [
+            "cooked",
+            "warm",
+            "hot"
+        ],
+        "spatial_relations": [
+            "soup in cooking pot",
+            "soup in microwave",
+            "soup in dish bowl",
+            "soup in frying pan"
+        ]
+    },
+    {
+        "action": "drink",
+        "object": "coffee",
+        "tools": [
+            "mug",
+            "water glass",
+            "wine glass",
+            "flower pot"
+        ],
+        "object_states_before": [
+            "hot",
+            "fresh",
+            "brewed",
+            "bitter"
+        ],
+        "object_states_after": [
+            "consumed"
+        ],
+        "spatial_relations": [
+            "coffee outside mug",
+            "coffee outside water glass",
+            "coffee outside wine glass",
+            "coffee outside flower pot"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "peach",
+        "tools": [
+            "plate",
+            "dish bowl"
+        ],
+        "object_states_before": [
+            "peach",
+            "ripe",
+            "sweet",
+            "fresh",
+            "cold",
+            "watery",
+            "prepared",
+            "plated"
+        ],
+        "object_states_after": [
+            "peach",
+            "fresh",
+            "cold",
+            "watery",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated"
+        ],
+        "spatial_relations": [
+            "peach on plate",
+            "peach in dish bowl"
+        ]
+    },
+    {
+        "action": "make",
+        "object": "toast",
+        "tools": [
+            "toaster",
+            "frying pan",
+            "bread slice",
+            "microwave",
+            "bread",
+            "knife"
+        ],
+        "object_states_before": [
+            "soft",
+            "cold",
+            "dry",
+            "fresh",
+            "sliced",
+            "fluffy",
+            "soft",
+            "cold"
+        ],
+        "object_states_after": [
+            "dry",
+            "crispy",
+            "warm",
+            "golden",
+            "fresh",
+            "toasted",
+            "browned",
+            "crunchy"
+        ],
+        "spatial_relations": [
+            "toast in toaster",
+            "toast in frying pan",
+            "toast in microwave",
+            "toast near knife"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "magazine",
+        "tools": [
+            "bookshelf",
+            "tv stand",
+            "coffee table",
+            "dining table",
+            "kitchen counter",
+            "sofa"
+        ],
+        "object_states_before": [
+            "read"
+        ],
+        "object_states_after": [
+            "read",
+            "organized",
+            "stacked",
+            "arranged",
+            "sorted",
+            "stored",
+            "shelved",
+            "stowed"
+        ],
+        "spatial_relations": [
+            "magazine in bookshelf",
+            "magazine on tv stand",
+            "magazine on coffee table",
+            "magazine on dining table",
+            "magazine on kitchen counter",
+            "magazine on sofa"
+        ]
+    },
+    {
+        "action": "hold",
+        "object": "food",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "fork",
+            "frying pan",
+            "knife",
+            "mug",
+            "cooking pot",
+            "water glass"
+        ],
+        "object_states_before": [
+            "fresh"
+        ],
+        "object_states_after": [
+            "lifted",
+            "fresh",
+            "held"
+        ],
+        "spatial_relations": [
+            "food on plate",
+            "food in dish bowl",
+            "food on fork",
+            "food in frying pan",
+            "food on knife",
+            "food in mug",
+            "food in cooking pot",
+            "food in water glass"
+        ]
+    },
+    {
+        "action": "hold",
+        "object": "red wine",
+        "tools": [
+            "wine glass",
+            "bottle",
+            "water glass",
+            "mug"
+        ],
+        "object_states_before": [
+            "fresh",
+            "aged",
+            "mature",
+            "poured",
+            "decanted",
+            "aerated",
+            "room temperature"
+        ],
+        "object_states_after": [
+            "lifted",
+            "fresh",
+            "held",
+            "aged",
+            "mature",
+            "poured",
+            "decanted",
+            "aerated",
+            "room temperature"
+        ],
+        "spatial_relations": [
+            "wine in wine glass",
+            "wine in bottle",
+            "wine in water glass",
+            "wine in mug"
+        ]
+    },
+    {
+        "action": "cut",
+        "object": "bread",
+        "tools": [
+            "knife",
+            "fork",
+            "key"
+        ],
+        "object_states_before": [
+            "fresh",
+            "uncut",
+            "whole",
+            "unsliced",
+            "crusty",
+            "room temperature",
+            "undivided",
+            "unparted",
+            "joined"
+        ],
+        "object_states_after": [
+            "fresh",
+            "cut",
+            "crusty",
+            "room temperature",
+            "sliced",
+            "divided",
+            "separated"
+        ],
+        "spatial_relations": [
+            "bread near knife",
+            "bread near fork",
+            "bread near key"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "lime",
+        "tools": [
+            "plate",
+            "knife",
+            "served",
+            "prepared",
+            "dish bowl",
+            "fresh",
+            "fork"
+        ],
+        "object_states_before": [
+            "green",
+            "fresh",
+            "cut",
+            "separated",
+            "sliced",
+            "halved",
+            "segmented",
+            "chopped",
+            "dissected",
+            "ripe",
+            "fresh",
+            "unblemished",
+            "sour",
+            "acidic",
+            "bitter",
+            "citrusy"
+        ],
+        "object_states_after": [
+            "eaten",
+            "consumed",
+            "swallowed"
+        ],
+        "spatial_relations": [
+            "lime off plate",
+            "lime off knife",
+            "lime outside dish bowl",
+            "lime off fork"
+        ]
+    },
+    {
+        "action": "fry",
+        "object": "salmon",
+        "tools": [
+            "frying pan",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "raw",
+            "cold",
+            "soft",
+            "fresh",
+            "moist",
+            "slimy",
+            "uncooked",
+            "watery",
+            "wet",
+            "slippery",
+            "cleaned",
+            "prepared"
+        ],
+        "object_states_after": [
+            "cooked",
+            "hot",
+            "crispy",
+            "browned",
+            "fried",
+            "cooked",
+            "hot"
+        ],
+        "spatial_relations": [
+            "salmon in frying pan",
+            "salmon in cooking pot"
+        ]
+    },
+    {
+        "action": "slice",
+        "object": "bun",
+        "tools": [
+            "knife",
+            "fork",
+            "plate"
+        ],
+        "object_states_before": [
+            "fresh",
+            "uncut",
+            "whole",
+            "unsliced",
+            "crusty",
+            "room temperature",
+            "undivided",
+            "unparted"
+        ],
+        "object_states_after": [
+            "fresh",
+            "cut",
+            "whole",
+            "crusty",
+            "room temperature",
+            "sliced",
+            "divided",
+            "separated"
+        ],
+        "spatial_relations": [
+            "bun near knife",
+            "bun near fork",
+            "bun on plate"
+        ]
+    },
+    {
+        "action": "cook",
+        "object": "egg",
+        "tools": [
+            "cooking pot",
+            "frying pan",
+            "microwave"
+        ],
+
+        "object_states_before": [
+            "raw",
+            "cold",
+            "soft",
+            "fresh",
+            "moist",
+            "slimy",
+            "uncooked",
+            "watery",
+            "wet",
+            "slippery",
+            "cleaned"
+        ],
+        "object_states_after": [
+            "cooked",
+            "hot",
+            "done",
+            "succulent"
+        ],
+
+
+        "object_states_before": [
+            "raw",
+            "cold",
+            "fresh",
+            "uncooked"
+        ],
+        "object_states_after": [
+            "cooked",
+            "hot",
+            "done",
+            "medium",
+            "hard",
+            "soft",
+            "boiled"
+        ],
+        "spatial_relations": [
+            "egg outside cooking pot",
+            "egg outside frying pan",
+            "egg outside microwave"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "bun",
+        "tools": [
+            "kitchen counter",
+            "fridge",
+            "dish bowl",
+            "plate",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "fresh",
+            "untouched",
+            "dry",
+            "uncovered"
+        ],
+        "object_states_after": [
+            "fresh",
+            "untouched",
+            "dry",
+            "organized",
+            "covered",
+            "stored",
+            "shelved",
+            "stowed"
+        ],
+        "spatial_relations": [
+            "bun on kitchen counter",
+            "bun in fridge",
+            "bun in dish bowl",
+            "bun on plate",
+            "bun in cooking pot"
+        ]
+    },
+    {
+        "action": "cook",
+        "object": "meal",
+        "tools": [
+            "cooking pot",
+            "frying pan",
+            "microwave",
+            "toaster"
+        ],
+        "object_states_before": [
+            "raw",
+            "cold",
+            "uncooked",
+            "fresh",
+            "chilled",
+            "sliced",
+            "washed",
+            "cleaned",
+            "peeled"
+        ],
+        "object_states_after": [
+            "cooked",
+            "hot",
+            "boiled",
+            "fresh"
+        ],
+        "spatial_relations": [
+            "meal in cooking pot",
+            "meal in frying pan",
+            "meal in microwave",
+            "meal in toaster"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "food",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "dining table",
+            "frying pan",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "prepared"
+        ],
+        "object_states_after": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "offered",
+            "served",
+            "given",
+            "garnished"
+        ],
+        "spatial_relations": [
+            "food on plate",
+            "food in dish bowl",
+            "food on dining table",
+            "food in frying pan",
+            "food in cooking pot"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "cereal",
+        "tools": [
+            "dish bowl",
+            "served",
+            "prepared",
+            "mug",
+            "plate",
+            "milk",
+            "fresh",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "crunchy",
+            "uncooked",
+            "cold",
+            "soggy",
+            "sweet",
+            "milky"
+        ],
+        "object_states_after": [
+            "consumed",
+            "swallowed",
+            "eaten"
+        ],
+        "spatial_relations": [
+            "cereal in dish bowl",
+            "cereal in mug",
+            "cereal on plate",
+            "cereal in milk",
+            "cereal in cooking pot"
+        ]
+    },
+    {
+        "action": "cook",
+        "object": "salmon",
+        "tools": [
+            "frying pan",
+            "cooking pot",
+            "microwave"
+        ],
+        "object_states_before": [
+            "raw",
+            "cold",
+            "soft",
+            "fresh",
+            "moist",
+            "slimy",
+            "uncooked",
+            "watery",
+            "wet",
+            "slippery",
+            "cleaned",
+            "prepared"
+        ],
+        "object_states_after": [
+            "cooked",
+            "hot",
+            "moist",
+            "medium",
+            "edible"
+        ],
+        "spatial_relations": [
+            "salmon outside frying pan",
+            "salmon outside cooking pot",
+            "salmon outside microwave"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "macaroni",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "fresh",
+            "fork"
+        ],
+        "object_states_before": [
+            "boiled",
+            "cooked",
+            "soft",
+            "al dente",
+            "served",
+            "prepared",
+            "hot"
+        ],
+        "object_states_after": [
+            "consumed",
+            "swallowed",
+            "eaten"
+        ],
+        "spatial_relations": [
+            "macaroni off plate",
+            "macaroni outside dish bowl",
+            "macaroni off fork"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "dish",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "frying pan",
+            "dining table",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "prepared"
+        ],
+        "object_states_after": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "offered",
+            "served",
+            "given",
+            "garnished"
+        ],
+        "spatial_relations": [
+            "dish on plate",
+            "dish in dish bowl",
+            "dish in frying pan",
+            "dish on dining table",
+            "dish in cooking pot"
+        ]
+    },
+    {
+        "action": "spread",
+        "object": "jam",
+        "tools": [
+            "knife",
+            "fork"
+        ],
+        "object_states_before": [
+            "viscous",
+            "gooey",
+            "soft",
+            "creamy"
+        ],
+        "object_states_after": [
+            "viscous",
+            "gooey",
+            "soft",
+            "creamy",
+            "spread",
+            "even"
+        ],
+        "spatial_relations": [
+            "jam on knife",
+            "jam on fork"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "milk",
+        "tools": [
+            "fridge",
+            "bottle",
+            "kitchen counter",
+            "mug",
+            "water glass"
+        ],
+        "object_states_before": [
+            "fresh",
+            "untouched"
+        ],
+        "object_states_after": [
+            "fresh",
+            "untouched",
+            "organized",
+            "covered",
+            "stored"
+        ],
+        "spatial_relations": [
+            "milk in fridge",
+            "milk in bottle",
+            "milk on kitchen counter",
+            "milk in mug",
+            "milk in water glass"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "pie",
+        "tools": [
+            "plate",
+            "fork",
+            "dish bowl",
+            "knife"
+        ],
+        "object_states_before": [
+            "baked",
+            "sweet",
+            "served",
+            "prepared",
+            "cold",
+            "fresh"
+        ],
+        "object_states_after": [
+            "consumed",
+            "swallowed",
+            "eaten"
+        ],
+        "spatial_relations": [
+            "pie off plate",
+            "pie off fork",
+            "pie outside dish bowl",
+            "pie off knife"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "dish",
+        "tools": [
+            "kitchen counter",
+            "fridge",
+            "cooking pot",
+            "dish bowl",
+            "plate",
+            "frying pan"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "empty",
+            "clear",
+            "polished",
+            "dust-free",
+            "unused",
+            "upright",
+            "sanitized"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "dust-free",
+            "sanitized",
+            "unused",
+            "stored",
+            "sorted",
+            "arranged",
+            "organized"
+        ],
+        "spatial_relations": [
+            "dish on kitchen counter",
+            "dish on dining table",
+            "dish in bookshelf",
+            "dish in fridge"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "breakfast",
+        "tools": [
+            "dish bowl",
+            "plate",
+            "dining table",
+            "bread",
+            "cooking pot",
+            "frying pan"
+        ],
+        "object_states_before": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "prepared"
+        ],
+        "object_states_after": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "offered",
+            "served",
+            "given",
+            "garnished"
+        ],
+        "spatial_relations": [
+            "breakfast in dish bowl",
+            "breakfast on plate",
+            "breakfast on dining table",
+            "breakfast in cooking pot",
+            "breakfast in frying pan"
+        ]
+    },
+    {
+        "action": "hold",
+        "object": "apple",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "fork",
+            "knife",
+            "mug"
+        ],
+        "object_states_before": [
+            "fresh"
+        ],
+        "object_states_after": [
+            "lifted",
+            "fresh",
+            "held"
+        ],
+        "spatial_relations": [
+            "apple on plate",
+            "apple in dish bowl",
+            "apple on fork",
+            "apple on knife",
+            "apple in mug"
+        ]
+    },
+    {
+        "action": "pour",
+        "object": "wine",
+        "tools": [
+            "bottle",
+            "wine glass",
+            "water glass"
+        ],
+        "object_states_before": [
+            "fresh",
+            "aged",
+            "mature",
+            "poured",
+            "decanted",
+            "aerated",
+            "room temperature"
+        ],
+        "object_states_after": [
+            "in",
+            "fresh",
+            "aged",
+            "mature",
+            "poured",
+            "decanted",
+            "aerated",
+            "room temperature"
+        ],
+        "spatial_relations": [
+            "wine in bottle",
+            "wine in wine glass",
+            "wine in water glass"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "bread",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "knife",
+            "fork"
+        ],
+        "object_states_before": [
+            "baked",
+            "served",
+            "prepared",
+            "room temperature",
+            "fresh"
+        ],
+        "object_states_after": [
+            "consumed",
+            "swallowed",
+            "eaten"
+        ],
+        "spatial_relations": [
+            "bread off plate",
+            "bread outside dish bowl",
+            "bread off knife",
+            "bread off fork"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "sweet",
+        "tools": [
+            "dish bowl",
+            "plate",
+            "mug"
+        ],
+        "object_states_before": [
+            "sweet",
+            "fresh",
+            "room temperature",
+            "prepared",
+            "plated"
+        ],
+        "object_states_after": [
+            "fresh",
+            "room temperature",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated"
+        ],
+        "spatial_relations": [
+            "sweet in dish bowl",
+            "sweet on plate",
+            "sweet in mug"
+        ]
+    },
+    {
+        "action": "butter",
+        "object": "toast",
+        "tools": [
+            "knife",
+            "fork"
+        ],
+        "object_states_before": [
+            "toasted",
+            "crisp",
+            "dry",
+            "fresh",
+            "plain",
+            "browned",
+            "golden",
+            "room temperature"
+        ],
+        "object_states_after": [
+            "toasted",
+            "coated",
+            "buttered",
+            "crisp",
+            "dry",
+            "fresh",
+            "plain",
+            "browned",
+            "golden",
+            "room temperature"
+        ],
+        "spatial_relations": [
+            "toast near knife",
+            "toast near fork"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "beverage",
+        "tools": [
+            "water glass",
+            "mug",
+            "bottle",
+            "wine glass"
+        ],
+        "object_states_before": [
+            "fresh",
+            "cold",
+            "clean",
+            "pure",
+            "natural"
+        ],
+        "object_states_after": [
+            "fresh",
+            "clean",
+            "pure",
+            "natural",
+            "offered",
+            "served",
+            "given"
+        ],
+        "spatial_relations": [
+            "beverage in water glass",
+            "beverage in mug",
+            "beverage in bottle",
+            "beverage in wine glass"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "steak",
+        "tools": [
+            "plate",
+            "knife",
+            "fork",
+            "dish bowl"
+        ],
+        "object_states_before": [
+            "cooked",
+            "well-done",
+            "medium",
+            "served",
+            "prepared",
+            "warm",
+            "fresh"
+        ],
+        "object_states_after": [
+            "consumed",
+            "swallowed",
+            "eaten"
+        ],
+        "spatial_relations": [
+            "steak off plate",
+            "steak off knife",
+            "steak off fork",
+            "steak outside dish bowl"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "cracker",
+        "tools": [
+            "dish bowl",
+            "plate",
+            "dining table"
+        ],
+        "object_states_before": [
+            "dry",
+            "crispy",
+            "room temperature",
+            "fresh",
+            "prepared",
+            "plated",
+            "salty"
+        ],
+        "object_states_after": [
+            "dry",
+            "crispy",
+            "warm",
+            "fresh",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated",
+            "salty"
+        ],
+        "spatial_relations": [
+            "cracker in dish bowl",
+            "cracker on plate",
+            "cracker on dining table"
+        ]
+    },
+    {
+        "action": "watch",
+        "object": "movie",
+        "tools": [
+            "tv",
+            "remote control",
+            "tv stand",
+            "sofa",
+            "chair"
+        ],
+        "object_states_before": [
+            "off"
+        ],
+        "object_states_after": [
+            "off",
+            "watched",
+            "seen",
+            "viewed"
+        ],
+        "spatial_relations": []
+    },
+    {
+        "action": "spread",
+        "object": "butter",
+        "tools": [
+            "knife",
+            "fork"
+        ],
+        "object_states_before": [
+            "viscous",
+            "gooey",
+            "soft",
+            "creamy",
+            "room temperature"
+        ],
+        "object_states_after": [
+            "viscous",
+            "gooey",
+            "soft",
+            "creamy",
+            "spread",
+            "even",
+            "room temperature"
+        ],
+        "spatial_relations": [
+            "butter on knife",
+            "butter on fork"
+        ]
+    },
+    {
+        "action": "cut",
+        "object": "food",
+        "tools": [
+            "knife",
+            "fork"
+        ],
+        "object_states_before": [
+            "fresh",
+            "uncut",
+            "whole",
+            "unsliced",
+            "crusty",
+            "room temperature",
+            "undivided",
+            "unparted",
+            "joined"
+        ],
+        "object_states_after": [
+            "fresh",
+            "cut",
+            "crusty",
+            "room temperature",
+            "sliced",
+            "divided",
+            "separated"
+        ],
+        "spatial_relations": [
+            "food near knife",
+            "food near fork"
+        ]
+    },
+    {
+        "action": "squash",
+        "object": "bug",
+        "tools": [
+            "book",
+            "pillow",
+            "frying pan",
+            "plate"
+        ],
+        "object_states_before": [
+            "alive",
+            "small",
+            "pesky",
+            "annoying"
+        ],
+        "object_states_after": [
+            "dead",
+            "flattened",
+            "crushed",
+            "smushed"
+        ],
+        "spatial_relations": [
+            "bug on book",
+            "bug on pillow",
+            "bug on frying pan",
+            "bug on plate"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "apple",
+        "tools": [
+            "fridge",
+            "kitchen counter",
+            "dining table",
+            "dish bowl",
+            "coffee table"
+        ],
+        "object_states_before": [
+            "fresh",
+            "untouched",
+            "clean",
+            "uncovered"
+        ],
+        "object_states_after": [
+            "fresh",
+            "untouched",
+            "clean",
+            "organized",
+            "stored"
+        ],
+        "spatial_relations": [
+            "apple in fridge",
+            "apple on kitchen counter",
+            "apple on dining table",
+            "apple in dish bowl",
+            "apple on coffee table"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "water",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table",
+            "fridge",
+            "coffee table"
+        ],
+        "object_states_before": [
+            "fresh",
+            "clean",
+            "pure"
+        ],
+        "object_states_after": [
+            "fresh",
+            "clean",
+            "pure",
+            "organized",
+            "covered",
+            "stored"
+        ],
+        "spatial_relations": [
+            "water on kitchen counter",
+            "water in bookshelf",
+            "water on dining table",
+            "water in fridge",
+            "water on coffee table"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "apple",
+        "tools": [
+            "plate",
+            "knife",
+            "fork",
+            "dish bowl"
+        ],
+        "object_states_before": [
+            "ripe",
+            "fresh",
+            "unblemished",
+            "sweet",
+            "acidic"
+        ],
+        "object_states_after": [
+            "eaten",
+            "consumed",
+            "swallowed"
+        ],
+        "spatial_relations": [
+            "apple off plate",
+            "apple off knife",
+            "apple off fork",
+            "apple outside dish bowl"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "bottle",
+        "tools": [
+            "kitchen counter",
+            "fridge",
+            "dining table",
+            "bookshelf",
+            "coffee table"
+        ],
+        "object_states_before": [
+            "upright",
+            "closed"
+        ],
+        "object_states_after": [
+            "closed",
+            "stored",
+            "sorted",
+            "upright",
+            "arranged",
+            "organized"
+        ],
+        "spatial_relations": [
+            "bottle on kitchen counter",
+            "bottle in fridge",
+            "bottle on dining table",
+            "bottle in bookshelf",
+            "bottle on coffee table"
+        ]
+    },
+    {
+        "action": "drink",
+        "object": "tea",
+        "tools": [
+            "mug",
+            "water glass",
+            "bottle",
+            "wine glass"
+        ],
+
+        "object_states_before": [
+            "hot",
+            "fresh",
+            "brewed",
+            "bitter"
+        ],
+        "object_states_after": [
+            "consumed"
+        ],
+        "spatial_relations": [
+            "tea outside mug",
+            "tea outside water glass",
+            "tea outside bottle",
+            "tea outside wine glass"
+        ]
+    },
+    {
+        "action": "peel",
+        "object": "apple",
+        "tools": [
+            "knife",
+            "fork",
+            "key",
+            "plate"
+        ],
+        "object_states_before": [
+            "ripe",
+            "fresh",
+            "unblemished",
+            "sweet",
+            "acidic"
+        ],
+        "object_states_after": [
+            "peeled",
+            "ripe",
+            "fresh",
+            "unblemished",
+            "sweet",
+            "acidic"
+        ],
+        "spatial_relations": [
+            "apple near knife",
+            "apple near fork",
+            "apple near key",
+            "apple on plate"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "milk",
+        "tools": [
+            "mug",
+            "water glass",
+            "bottle",
+            "wine glass",
+            "dish bowl"
+        ],
+
+        "object_states_before": [
+            "fresh",
+            "cold",
+            "white",
+            "clean",
+            "pure",
+            "natural"
+        ],
+        "object_states_after": [
+            "fresh",
+            "clean",
+            "pure",
+            "white",
+            "natural",
+            "offered",
+            "served",
+            "given"
+        ],
+        "spatial_relations": [
+            "milk in mug",
+            "milk in water glass",
+            "milk in bottle",
+            "milk in wine glass",
+            "milk in dish bowl"
+        ]
+    },
+    {
+        "action": "wash",
+        "object": "mug",
+        "tools": [
+            "faucet",
+            "kitchen counter",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "dirty",
+            "stained",
+            "soiled",
+            "smelly"
+        ],
+        "object_states_after": [
+            "clean",
+            "sparkling",
+            "sanitized",
+            "rinsed",
+            "shiny",
+            "scrubbed",
+            "hygienic",
+            "immaculate",
+            "purified",
+            "unused",
+            "gleaming",
+            "washed",
+            "cleaned"
+        ],
+        "spatial_relations": [
+            "mug on kitchen counter",
+            "mug in cooking pot"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "glass",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "empty",
+            "clear",
+            "polished",
+            "dust-free",
+            "unused",
+            "upright",
+            "sanitized"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "dust-free",
+            "sanitized",
+            "unused",
+            "stored",
+            "sorted",
+            "upright",
+            "arranged",
+            "organized"
+        ],
+        "spatial_relations": [
+            "glass on kitchen counter",
+            "glass in bookshelf",
+            "glass on dining table"
+        ]
+    },
+    {
+        "action": "cut",
+        "object": "banana",
+        "tools": [
+            "knife",
+            "fork",
+            "key"
+        ],
+
+        "object_states_before": [
+            "yellow",
+            "fresh",
+            "uncut",
+            "whole",
+            "joined"
+        ],
+        "object_states_after": [
+            "yellow",
+            "peeled",
+            "fresh",
+            "cut",
+            "separated",
+            "sliced",
+            "halved",
+            "segmented",
+            "chopped",
+            "dissected"
+        ],
+        "spatial_relations": [
+            "banana near knife",
+            "banana near fork",
+            "banana near key"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "chip",
+        "tools": [
+            "plate",
+            "dish bowl"
+        ],
+
+        "object_states_before": [
+            "dry",
+            "crispy",
+            "room temperature",
+            "fresh",
+            "prepared",
+            "plated",
+            "salty"
+        ],
+        "object_states_after": [
+            "dry",
+            "crispy",
+            "warm",
+            "fresh",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated",
+            "salty"
+        ],
+        "spatial_relations": [
+            "chip on plate",
+            "chip in dish bowl"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "fork",
+        "tools": [
+            "kitchen counter",
+            "dining table",
+            "bookshelf"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished",
+            "stored",
+            "sorted",
+            "sealed"
+        ],
+        "spatial_relations": [
+            "fork on kitchen counter",
+            "fork on dining table",
+            "fork in bookshelf"
+        ]
+    },
+    {
+        "action": "drink",
+        "object": "beer",
+        "tools": [
+            "water glass",
+            "bottle",
+            "mug",
+            "wine glass"
+        ],
+
+        "object_states_before": [
+            "fresh",
+            "chilled",
+            "cold",
+            "foamy"
+        ],
+        "object_states_after": [
+            "consumed"
+        ],
+        "spatial_relations": [
+            "beer outside water glass",
+            "beer outside bottle",
+            "beer outside mug",
+            "beer outside wine glass"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "cutlery",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table"
+        ],
+
+        "object_states_before": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished",
+            "sorted",
+            "stored",
+            "sealed"
+        ],
+        "spatial_relations": [
+            "cutlery on kitchen counter",
+            "cutlery in bookshelf",
+            "cutlery on dining table"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "meal",
+        "tools": [
+            "plate",
+            "fork",
+            "knife",
+            "dining table",
+            "dish bowl",
+            "coffee table",
+            "mug",
+            "kitchen counter",
+            "frying pan"
+        ],
+        "object_states_before": [
+            "boiled",
+            "cooked",
+            "hot",
+            "served",
+            "prepared",
+            "hot"
+        ],
+        "object_states_after": [
+            "consumed",
+            "swallowed",
+            "eaten"
+        ],
+        "spatial_relations": [
+            "meal off plate",
+            "meal off fork",
+            "meal off knife",
+            "meal off dining table",
+            "meal outside dish bowl",
+            "meal off coffee table",
+            "meal outside mug",
+            "meal off kitchen counter",
+            "meal outside frying pan"
+        ]
+    },
+    {
+        "action": "chop",
+        "object": "vegetable",
+        "tools": [
+            "knife",
+            "fork"
+        ],
+        "object_states_before": [
+            "fresh",
+            "uncut",
+            "whole",
+            "joined"
+        ],
+        "object_states_after": [
+            "fresh",
+            "cut",
+            "separated",
+            "chopped",
+            "halved",
+            "segmented",
+            "dissected",
+            "partitioned"
+        ],
+        "spatial_relations": [
+            "vegetable near knife",
+            "vegetable near fork"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "vegetable",
+        "tools": [
+            "plate",
+            "fork",
+            "knife",
+            "dish bowl",
+            "dining table",
+            "frying pan"
+        ],
+        "object_states_before": [
+            "ripe",
+            "fresh",
+            "unblemished",
+            "sweet",
+            "acidic"
+        ],
+        "object_states_after": [
+            "eaten",
+            "consumed",
+            "swallowed"
+        ],
+        "spatial_relations": [
+            "vegetable off plate",
+            "vegetable off fork",
+            "vegetable off knife",
+            "vegetable outside dish bowl",
+            "vegetable off dining table",
+            "vegetable outside frying pan"
+        ]
+    },
+    {
+        "action": "boil",
+        "object": "water",
+        "tools": [
+            "cooking pot",
+            "microwave",
+            "frying pan"
+        ],
+
+        "object_states_before": [
+            "cold",
+            "still",
+            "fresh",
+            "clean",
+            "pure"
+        ],
+        "object_states_after": [
+            "fresh",
+            "clean",
+            "pure",
+            "still",
+            "heated",
+            "boiled",
+            "sterilized",
+            "hot"
+        ],
+        "spatial_relations": [
+            "water in cooking pot",
+            "water in microwave",
+            "water in frying pan"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "food",
+        "tools": [
+            "plate",
+            "fork",
+            "knife",
+            "dish bowl",
+            "dining table",
+            "coffee table",
+            "mug",
+            "kitchen counter",
+            "frying pan"
+        ],
+        "object_states_before": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "prepared"
+        ],
+        "object_states_after": [
+            "eaten",
+            "consumed",
+            "swallowed"
+        ],
+        "spatial_relations": [
+            "food off plate",
+            "food off fork",
+            "food off knife",
+            "food outside dish bowl",
+            "food off dining table",
+            "food off coffee table",
+            "food outside mug",
+            "food off kitchen counter",
+            "food outside frying pan"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "wine",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "fridge",
+            "dining table"
+        ],
+        "object_states_before": [
+            "upright",
+            "closed"
+        ],
+        "object_states_after": [
+            "closed",
+            "stored",
+            "sorted",
+            "upright",
+            "arranged",
+            "organized"
+        ],
+        "spatial_relations": [
+            "wine on kitchen counter",
+            "wine in bookshelf",
+            "wine on dining table"
+        ]
+    },
+    {
+        "action": "hold",
+        "object": "liquid",
+        "tools": [
+            "water glass",
+            "bottle",
+            "mug",
+            "wine glass",
+            "dish bowl",
+            "vase",
+            "cooking pot",
+            "flower pot"
+        ],
+        "object_states_before": [
+            "fresh",
+            "poured"
+        ],
+        "object_states_after": [
+            "lifted",
+            "fresh",
+            "held"
+        ],
+        "spatial_relations": [
+            "liquid in water glass",
+            "liquid in bottle",
+            "liquid in mug",
+            "liquid in wine glass",
+            "liquid in dish bowl",
+            "liquid in vase",
+            "liquid in cooking pot",
+            "liquid in flower pot"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "frying pan",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "dust-free",
+            "sanitized",
+            "unused"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "dust-free",
+            "sanitized",
+            "unused",
+            "stored",
+            "stacked",
+            "organized",
+            "sorted"
+        ],
+        "spatial_relations": [
+            "frying pan on kitchen counter",
+            "frying pan in bookshelf",
+            "frying pan on dining table"
+        ]
+    },
+    {
+        "action": "watch",
+        "object": "film",
+        "tools": [
+            "tv",
+            "remote control",
+            "tv stand",
+            "sofa",
+            "chair"
+        ],
+        "object_states_before": [
+            "off"
+        ],
+        "object_states_after": [
+            "off",
+            "watched",
+            "seen",
+            "viewed"
+        ],
+        "spatial_relations": []
+    },
+    {
+        "action": "serve",
+        "object": "red wine",
+        "tools": [
+            "wine glass",
+            "water glass",
+            "bottle",
+            "mug"
+        ],
+        "object_states_before": [
+            "fresh",
+            "aged",
+            "mature",
+            "poured",
+            "decanted",
+            "aerated",
+            "room temperature"
+        ],
+        "object_states_after": [
+            "lifted",
+            "fresh",
+            "held",
+            "aged",
+            "mature",
+            "poured",
+            "decanted",
+            "aerated",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated",
+            "room temperature"
+        ],
+        "spatial_relations": [
+            "wine in wine glass",
+            "wine in water glass",
+            "wine in bottle",
+            "wine in mug"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "remote",
+        "tools": [
+            "tv stand",
+            "coffee table",
+            "bookshelf",
+            "sofa"
+        ],
+
+        "object_states_before": [
+            "used",
+            "needed"
+        ],
+        "object_states_after": [
+            "read",
+            "organized",
+            "stacked",
+            "arranged",
+            "sorted",
+            "stored",
+            "shelved",
+            "stowed"
+        ],
+        "spatial_relations": [
+            "remote on tv stand",
+            "remote on coffee table",
+            "remote in bookshelf",
+            "remote on sofa"
+        ]
+    },
+    {
+        "action": "cook",
+        "object": "food",
+        "tools": [
+            "cooking pot",
+            "frying pan",
+            "microwave",
+            "toaster"
+        ],
+
+        "object_states_before": [
+            "raw",
+            "cold",
+            "uncooked",
+            "fresh",
+            "chilled",
+            "sliced",
+            "washed",
+            "cleaned",
+            "peeled"
+        ],
+        "object_states_after": [
+            "cooked",
+            "hot",
+            "boiled",
+            "fresh"
+        ],
+        "spatial_relations": [
+            "food in cooking pot",
+            "food in frying pan",
+            "food in microwave"
+        ]
+    },
+    {
+        "action": "hold",
+        "object": "coffee",
+        "tools": [
+            "mug",
+            "water glass",
+            "wine glass"
+        ],
+
+        "object_states_before": [
+            "hot",
+            "fresh",
+            "brewed",
+            "bitter"
+        ],
+        "object_states_after": [
+            "lifted",
+            "fresh",
+            "held"
+        ],
+        "spatial_relations": [
+            "coffee in mug",
+            "coffee in water glass",
+            "coffee in wine glass"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "cereal",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table",
+            "dish bowl"
+        ],
+        "object_states_before": [
+            "fresh",
+            "untouched",
+            "crunchy",
+            "uncooked",
+            "sweet",
+            "packaged"
+        ],
+        "object_states_after": [
+            "fresh",
+            "untouched",
+            "organized",
+            "crunchy",
+            "covered",
+            "stored",
+            "packaged"
+        ],
+        "spatial_relations": [
+            "cereal on kitchen counter",
+            "cereal in bookshelf",
+            "cereal on dining table",
+            "cereal in dish bowl"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "knife",
+        "tools": [
+            "kitchen counter",
+            "dining table",
+            "bookshelf"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "unused",
+            "sharp",
+            "sanitized",
+            "polished"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished",
+            "stored",
+            "sorted",
+            "sealed",
+            "sharp"
+        ],
+        "spatial_relations": [
+            "knife on kitchen counter",
+            "knife on dining table",
+            "knife in bookshelf"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "book",
+        "tools": [
+            "bookshelf",
+            "coffee table",
+            "kitchen counter",
+            "dining table",
+            "tv stand"
+        ],
+
+        "object_states_before": [
+            "read"
+        ],
+        "object_states_after": [
+            "read",
+            "organized",
+            "stacked",
+            "arranged",
+            "sorted",
+            "stored",
+            "shelved",
+            "stowed",
+            "closed"
+        ],
+        "spatial_relations": [
+            "book in bookshelf",
+            "book on coffee table",
+            "book on kitchen counter",
+            "book on dining table",
+            "book on tv stand"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "fish",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "frying pan",
+            "cooking pot"
+        ],
+        "object_states_before": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "prepared"
+        ],
+        "object_states_after": [
+            "fresh",
+            "plated",
+            "fragrant",
+            "offered",
+            "served",
+            "given",
+            "garnished"
+        ],
+        "spatial_relations": [
+            "fish on plate",
+            "fish in dish bowl",
+            "fish in frying pan",
+            "fish in cooking pot"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "fruit",
+        "tools": [
+            "fridge",
+            "kitchen counter",
+            "dish bowl",
+            "bookshelf",
+            "dining table",
+            "plate"
+        ],
+
+        "object_states_before": [
+            "fresh",
+            "untouched",
+            "clean",
+            "uncovered"
+        ],
+        "object_states_after": [
+            "fresh",
+            "untouched",
+            "clean",
+            "organized",
+            "stored"
+        ],
+        "spatial_relations": [
+            "fruit in fridge",
+            "fruit on kitchen counter",
+            "fruit in dish bowl",
+            "fruit in bookshelf",
+            "fruit on dining table",
+            "fruit on plate"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "dish",
+        "tools": [
+            "kitchen counter",
+            "dining table",
+            "bookshelf",
+            "fridge"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished",
+            "stored",
+            "sorted",
+            "sealed"
+        ],
+        "spatial_relations": [
+            "dish on kitchen counter",
+            "dish on dining table",
+            "dish in bookshelf",
+            "dish in fridge"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "plate",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished",
+            "flat"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished",
+            "stored",
+            "stacked",
+            "sorted",
+            "sealed",
+            "flat"
+        ],
+        "spatial_relations": [
+            "plate on kitchen counter",
+            "plate in bookshelf",
+            "plate on dining table"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "candy",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "mug"
+        ],
+
+        "object_states_before": [
+            "sweet",
+            "fresh",
+            "prepared",
+            "plated"
+        ],
+        "object_states_after": [
+            "fresh",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated"
+        ],
+        "spatial_relations": [
+            "candy on plate",
+            "candy in dish bowl",
+            "candy in mug"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "jar",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "fridge",
+            "dining table"
+        ],
+        "object_states_before": [
+            "upright",
+            "closed"
+        ],
+        "object_states_after": [
+            "closed",
+            "stored",
+            "sorted",
+            "upright",
+            "arranged",
+            "organized"
+        ],
+        "spatial_relations": [
+            "jar on kitchen counter",
+            "jar in bookshelf",
+            "jar in fridge",
+            "jar on dining table"
+        ]
+    },
+    {
+        "action": "hold",
+        "object": "juice",
+        "tools": [
+            "water glass",
+            "mug",
+            "bottle",
+            "wine glass"
+        ],
+        "object_states_before": [
+            "fresh",
+            "poured"
+        ],
+        "object_states_after": [
+            "lifted",
+            "fresh",
+            "held",
+            "upright"
+        ],
+        "spatial_relations": [
+            "juice in water glass",
+            "juice in mug",
+            "juice in bottle",
+            "juice in wine glass"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "bread",
+        "tools": [
+            "plate",
+            "dish bowl",
+            "frying pan",
+            "knife"
+        ],
+
+        "object_states_before": [
+            "dry",
+            "warm",
+            "fresh",
+            "prepared",
+            "plated"
+        ],
+        "object_states_after": [
+            "dry",
+            "warm",
+            "fresh",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated"
+        ],
+        "spatial_relations": [
+            "bread on plate",
+            "bread in dish bowl",
+            "bread in frying pan",
+            "knife in bread"
+        ]
+    },
+    {
+        "action": "carry",
+        "object": "milk",
+        "tools": [
+            "bottle",
+            "mug",
+            "water glass",
+            "dish bowl",
+            "wine glass"
+        ],
+        "object_states_before": [
+            "poured"
+        ],
+        "object_states_after": [
+            "lifted",
+            "held",
+            "upright"
+        ],
+        "spatial_relations": [
+            "milk in bottle",
+            "milk in mug",
+            "milk in water glass",
+            "milk in dish bowl",
+            "milk in wine glass"
+        ]
+    },
+    {
+        "action": "watch",
+        "object": "news",
+        "tools": [
+            "tv",
+            "remote control",
+            "sofa",
+            "tv stand",
+            "chair"
+        ],
+        "object_states_before": [
+            "off"
+        ],
+        "object_states_after": [
+            "off",
+            "watched",
+            "seen",
+            "viewed"
+        ],
+        "spatial_relations": []
+    },
+    {
+        "action": "store",
+        "object": "bowl",
+        "tools": [
+            "kitchen counter",
+            "dining table",
+            "bookshelf",
+            "fridge",
+            "coffee table"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "unused",
+            "sanitized",
+            "polished",
+            "flat"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "unused",
+            "stacked",
+            "sanitized",
+            "polished",
+            "stored",
+            "sorted",
+            "sealed",
+            "flat"
+        ],
+        "spatial_relations": [
+            "bowl on kitchen counter",
+            "bowl on dining table",
+            "bowl in bookshelf",
+            "bowl in fridge",
+            "bowl on coffee table"
+        ]
+    },
+    {
+        "action": "eat",
+        "object": "dinner",
+        "tools": [
+            "plate",
+            "dining table",
+            "dish bowl",
+            "fork",
+            "knife",
+            "coffee table",
+            "chair"
+        ],
+
+        "object_states_before": [
+            "boiled",
+            "cooked",
+            "hot",
+            "served",
+            "prepared",
+            "hot"
+        ],
+        "object_states_after": [
+            "consumed",
+            "swallowed",
+            "eaten"
+        ],
+        "spatial_relations": [
+            "dinner off plate",
+            "dinner off dining table",
+            "dinner outside dish bowl",
+            "dinner off fork",
+            "dinner off knife",
+            "dinner off coffee table"
+        ]
+    },
+    {
+        "action": "serve",
+        "object": "plum",
+        "tools": [
+            "plate",
+            "dish bowl"
+        ],
+
+        "object_states_before": [
+            "purple",
+            "ripe",
+            "sweet",
+            "fresh",
+            "cold",
+            "watery",
+            "prepared",
+            "plated"
+        ],
+        "object_states_after": [
+            "purple",
+            "fresh",
+            "cold",
+            "watery",
+            "offered",
+            "served",
+            "given",
+            "prepared",
+            "plated"
+        ],
+        "spatial_relations": [
+            "plum on plate",
+            "plum in dish bowl"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "mug",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table",
+            "coffee table"
+        ],
+        "object_states_before": [
+            "clean",
+            "dry",
+            "empty",
+            "clear",
+            "polished",
+            "dust-free",
+            "unused",
+            "upright",
+            "sanitized"
+        ],
+        "object_states_after": [
+            "clean",
+            "dry",
+            "empty",
+            "sealed",
+            "dust-free",
+            "sanitized",
+            "unused",
+            "stored",
+            "sorted",
+            "upright",
+            "arranged",
+            "organized"
+        ],
+        "spatial_relations": [
+            "mug on kitchen counter",
+            "mug in bookshelf",
+            "mug on dining table",
+            "mug on coffee table"
+        ]
+    },
+    {
+        "action": "cut",
+        "object": "meat",
+        "tools": [
+            "knife",
+            "fork"
+        ],
+        "object_states_before": [
+            "fresh",
+            "uncut",
+            "whole",
+            "unsliced",
+            "crusty",
+            "undivided",
+            "unparted",
+            "joined"
+        ],
+        "object_states_after": [
+            "fresh",
+            "cut",
+            "crusty",
+            "sliced",
+            "divided",
+            "separated"
+        ],
+        "spatial_relations": [
+            "meat near knife",
+            "meat on fork"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "red wine",
+        "tools": [
+            "kitchen counter",
+            "bookshelf",
+            "dining table"
+        ],
+        "object_states_before": [
+            "upright",
+            "closed",
+            "room temperature"
+        ],
+        "object_states_after": [
+            "closed",
+            "stored",
+            "sorted",
+            "upright",
+            "arranged",
+            "organized",
+            "room temperature"
+        ],
+        "spatial_relations": [
+            "wine on kitchen counter",
+            "wine in bookshelf",
+            "wine on dining table"
+        ]
+    },
+    {
+        "action": "store",
+        "object": "bread",
+        "tools": [
+            "kitchen counter",
+            "fridge",
+            "dining table",
+            "bookshelf"
+        ],
+        "object_states_before": [
+            "fresh",
+            "untouched",
+            "dry",
+            "uncovered"
+        ],
+        "object_states_after": [
+            "fresh",
+            "untouched",
+            "dry",
+            "organized",
+            "covered",
+            "stored",
+            "shelved",
+            "stowed"
+        ],
+        "spatial_relations": [
+            "bread on kitchen counter",
+            "bread in fridge",
+            "bread on dining table",
+            "bread in bookshelf"
+        ]
+    }
+]

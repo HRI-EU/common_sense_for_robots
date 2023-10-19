@@ -1,0 +1,8 @@
+# directories
+.idea/
+.venv/
+
+# file types
+*.owl
+*.log
+
