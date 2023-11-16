@@ -1,5 +1,16 @@
-# common_sense_for_robots
-Supplemental material for the paper "Exploring Large Language Models as a Source of Common-Sense Knowledge for Robots"
+<div align="center">
+
+  <a href="">[![Static Badge](https://img.shields.io/badge/arXiv-2311.08412-B31B1B?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2311.08412)</a>
+
+</div>
+
+<h1 align="center">
+  🧠🤖 common_sense_for_robots
+</h1>
+
+<div align="center">
+  Supplemental material for the paper "Exploring Large Language Models as a Source of Common-Sense Knowledge for Robots"
+</div>
 
 
 ## Contents
